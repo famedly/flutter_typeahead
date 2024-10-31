@@ -1,6 +1,7 @@
 import 'dart:async';
 
 import 'package:flutter/widgets.dart';
+
 import 'package:flutter_typeahead/src/common/base/connector_widget.dart';
 
 /// A widget that notifies of changes to a [TextEditingController],
