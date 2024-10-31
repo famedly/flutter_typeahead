@@ -229,6 +229,7 @@ class _RawTypeAheadFieldState<T> extends State<RawTypeAheadField<T>> {
         listBuilder: widget.listBuilder,
       ),
       child: PointerInterceptor(
+        // In order to address https://github.com/flutter/flutter/issues/157920
         intercepting: !kIsWeb,
         child: widget.builder(
           context,
