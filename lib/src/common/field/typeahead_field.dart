@@ -1,3 +1,4 @@
+import 'package:flutter/foundation.dart';
 import 'package:flutter/widgets.dart';
 
 import 'package:pointer_interceptor/pointer_interceptor.dart';
@@ -228,6 +229,7 @@ class _RawTypeAheadFieldState<T> extends State<RawTypeAheadField<T>> {
         listBuilder: widget.listBuilder,
       ),
       child: PointerInterceptor(
+        intercepting: !kIsWeb,
         child: widget.builder(
           context,
           controller,
