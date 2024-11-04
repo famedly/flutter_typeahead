@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+
 import 'package:flutter_test/flutter_test.dart';
+
 import 'package:flutter_typeahead/src/common/box/suggestions_box_scroll_injector.dart';
 
 void main() {
