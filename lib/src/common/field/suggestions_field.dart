@@ -1,12 +1,13 @@
 import 'package:flutter/widgets.dart';
+
 import 'package:flutter_typeahead/src/common/base/connector_widget.dart';
 import 'package:flutter_typeahead/src/common/base/floater.dart';
-import 'package:flutter_typeahead/src/common/box/suggestions_box.dart';
 import 'package:flutter_typeahead/src/common/base/suggestions_controller.dart';
 import 'package:flutter_typeahead/src/common/base/types.dart';
+import 'package:flutter_typeahead/src/common/box/suggestions_box.dart';
+import 'package:flutter_typeahead/src/common/field/suggestions_field_box_connector.dart';
 import 'package:flutter_typeahead/src/common/field/suggestions_field_focus_connector.dart';
 import 'package:flutter_typeahead/src/common/field/suggestions_field_keyboard_connector.dart';
-import 'package:flutter_typeahead/src/common/field/suggestions_field_box_connector.dart';
 import 'package:flutter_typeahead/src/common/field/suggestions_field_select_connector.dart';
 import 'package:flutter_typeahead/src/common/field/suggestions_field_tap_connector.dart';
 import 'package:flutter_typeahead/src/common/field/suggestions_field_traversal_connector.dart';
